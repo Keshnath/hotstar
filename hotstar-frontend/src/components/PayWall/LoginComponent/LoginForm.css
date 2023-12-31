@@ -1,0 +1,61 @@
+
+.display-data{
+display: grid;
+gap: 0rem;
+grid-template-columns: 1fr 1fr;
+margin-right: 2rem;
+
+}
+
+.imageCard{
+  display: flex;
+  margin-top: -2rem;
+  gap: 3rem;
+  margin-left: 0.3rem;
+  position: relative;
+
+}
+.imageCard2{
+  display: flex;
+  margin-top: 1rem;
+  gap: 3rem;
+  margin-left: 0.3rem;
+
+}
+.imageCard3{
+  display: flex;
+  margin-top: 0.6rem;
+  gap: 3rem;
+  margin-left: 0.3rem;
+
+}
+.marquee-container {
+  display: flex;
+  overflow: hidden; 
+  width: 100%;
+}
+
+
+.marquee-item {
+  flex-shrink: 0; /* Prevent items from shrinking */
+  margin-right: 21px; /* Adjust the gap between images */
+  animation: marquee 10s linear infinite; /* Adjust animation duration as needed */
+  width: 25%;
+  opacity: 0.4;
+  
+ 
+}
+
+
+@keyframes marquee {
+  0% {
+      transform: translateX(100%); 
+  }
+  100% {
+      transform: translateX(100%); 
+  }
+}
+.imageSliderGrid{
+  display: grid;
+  grid-template-columns: 1fr;
+}

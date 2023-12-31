@@ -1,0 +1,9 @@
+.search-icon {
+    fill: white; /* Set the icon color to white */
+}
+
+/* Remove the blue border on focus */
+.search-input:focus {
+    outline: none;
+    border: 1px solid white; /* Set the border color on focus */
+}
